@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ControllerOnServer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ControllerOnServer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链测控平台软件.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链测控平台软件.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链通信性能分析软件.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链通信性能分析软件.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="宽带数据链软件-数据源.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="宽带数据链软件-数据源.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="款单数据链软件-模拟系统.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="款单数据链软件-模拟系统.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-模拟系统.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-模拟系统.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-数据源.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-数据源.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="1452346566370809.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链测控平台软件_meitu_1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="空地数据链通信性能分析软件_meitu_3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="宽带数据链软件-数据源_meitu_4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="款单数据链软件-模拟系统_meitu_5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-模拟系统_meitu_6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="战术数据链软件-数据源_meitu_7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="宽单数据链软件-模拟系统.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControllerOnServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerOnServerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialConfigDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformOfObserveAndControlDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterControlDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareCommend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Globe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectNetDeviceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinpCapHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadGrdDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadPlaneDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterBroadDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledBroadDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddLinksDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControllerOnServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerOnServerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialConfigDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformOfObserveAndControlDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterControlDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareCommend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectNetDeviceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinpCapHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadGrdDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadPlaneDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterBroadDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledBroadDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddLinksDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ControllerOnServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

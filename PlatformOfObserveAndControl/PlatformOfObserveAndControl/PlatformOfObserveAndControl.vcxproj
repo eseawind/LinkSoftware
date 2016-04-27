@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E94926DF-7901-4A34-B402-5ECA9C34FE58}</ProjectGuid>
+    <RootNamespace>PlatformOfObserveAndControl</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)dev_api;$(ProjectDir)WpdPack\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)dev_api;$(ProjectDir)WpdPack\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_REMOTE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)dev_api;$(ProjectDir)WpdPack\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dev_api.lib;wpcap.lib;Packet.lib;iphlpapi.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="1452346566370809.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\PlatformOfObserveAndControl.ico" />
+    <None Include="res\PlatformOfObserveAndControl.rc2" />
+    <None Include="宽单数据链软件-模拟系统.bmp" />
+    <None Include="宽带数据链软件-数据源.bmp" />
+    <None Include="宽带数据链软件-数据源_meitu_4.bmp" />
+    <None Include="战术数据链软件-数据源.bmp" />
+    <None Include="战术数据链软件-数据源_meitu_7.bmp" />
+    <None Include="战术数据链软件-模拟系统.bmp" />
+    <None Include="战术数据链软件-模拟系统_meitu_6.bmp" />
+    <None Include="款单数据链软件-模拟系统.bmp" />
+    <None Include="款单数据链软件-模拟系统_meitu_5.bmp" />
+    <None Include="空地数据链测控平台软件.bmp" />
+    <None Include="空地数据链测控平台软件_meitu_1.bmp" />
+    <None Include="空地数据链通信性能分析软件.bmp" />
+    <None Include="空地数据链通信性能分析软件_meitu_3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlledBroadDlg.h" />
+    <ClInclude Include="Globe.h" />
+    <ClInclude Include="ControlledDlg.h" />
+    <ClInclude Include="InitNodeIDDlg.h" />
+    <ClInclude Include="MasterBroadDlg.h" />
+    <ClInclude Include="MasterControlDlg.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="PhyHelper.h" />
+    <ClInclude Include="PlatformOfObserveAndControl.h" />
+    <ClInclude Include="PlatformOfObserveAndControlDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectNetDeviceDlg.h" />
+    <ClInclude Include="SoftwareCommend.h" />
+    <ClInclude Include="StatisticsDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WinpCapHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlledBroadDlg.cpp" />
+    <ClCompile Include="ControlledDlg.cpp" />
+    <ClCompile Include="InitNodeIDDlg.cpp" />
+    <ClCompile Include="MasterBroadDlg.cpp" />
+    <ClCompile Include="MasterControlDlg.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="PhyHelper.cpp" />
+    <ClCompile Include="PlatformOfObserveAndControl.cpp" />
+    <ClCompile Include="PlatformOfObserveAndControlDlg.cpp" />
+    <ClCompile Include="SelectNetDeviceDlg.cpp" />
+    <ClCompile Include="SoftwareCommend.cpp" />
+    <ClCompile Include="StatisticsDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WinpCapHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlatformOfObserveAndControl.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PlatformOfObserveAndControl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
